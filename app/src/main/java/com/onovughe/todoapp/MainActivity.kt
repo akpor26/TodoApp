@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isValidCredentials(userName: String, passWord: String):Boolean{
-        if (userName == validuserName && passWord == validpassWord) return true
+        if ( passWord == validpassWord) return true
         return false
 
     }

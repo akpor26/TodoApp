@@ -18,6 +18,6 @@ class HomeActivity2 : AppCompatActivity() {
         //Finding Value by Id
         welcome1 = findViewById(R.id.welcome1)
 
-        welcome1.text = "Welcome Akpor"
+        welcome1.text = intent.getStringExtra("username")
     }
 }
